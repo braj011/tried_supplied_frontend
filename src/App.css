@@ -1,26 +1,34 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  /* display: flex; */
+  font-family: 'PT Serif', serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: blanchedalmond;
+  height: 10vh;
+  min-width: max-content;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.tried_and_supplied_logo {
+  height: 100%;
+  width: auto;
 }
+
+.App-logo {
+  max-height: 100%;
+  align-self: flex-end;
+  margin-left: 85%;
+  padding-left: 1%;
+  animation: App-logo-spin infinite 2s linear;
+  height: 40vmin;
+}  
 
 @keyframes App-logo-spin {
   from {
@@ -29,4 +37,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.season-q {
+  font-size: 4rem;
+}
+
+.season-dropdown {
+  display: inline-block;
+}
+
+.button.is-primary {
+  margin-top: 5%; 
+  width: 100%;
+  display: inline-block;
+
+}
+
+.product-list {
+  padding: 5%;
 }
